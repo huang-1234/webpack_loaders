@@ -1,0 +1,37 @@
+{
+  "name": "webpack_self_loader",
+  "version": "1.0.0",
+  "description": "webpack loader",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "cross-env NODE_ENV=development webpack serve --config build/webpack.config.js",
+    "start:dev": "cross-env NODE_ENV=development webpack serve --config build/webpack.config.js",
+    "start:ppe": "cross-env NODE_ENV=development webpack serve --config build/webpack.config.js",
+    "start:prod": "cross-env NODE_ENV=production webpack serve --config build/webpack.config.js",
+    "build": "cross-env NODE_ENV=development webpack --config build/webpack.config.js",
+    "build:ppe": "cross-env NODE_ENV=development webpack --config build/webpack.config.js",
+    "build:prod": "cross-env NODE_ENV=production webpack --config build/webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "style",
+    "css"
+  ],
+  "author": "huangsq",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.3",
+    "loader-utils": "^2.2.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "schema-utils": "^4.2.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

@@ -50,3 +50,22 @@ m4/lt~obsolete.m4
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
+node_modules
+
+dist
+
+.mock
+*.log
+
+
+*.yaml
+
+*.lock
+
+pnpm-lock.yaml
+
+pnpm-lock.yaml
+
+yarn.lock
+
+.DS_Store
